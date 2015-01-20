@@ -1,0 +1,17 @@
+{
+  "name": "BXPFCServer",
+  "version": "0.1.0",
+  "description": "The server side For BXPFindContracts",
+  "author": "moshoujingli<bixiaopeng2007@gmail.com>",
+  "dependencies": {
+    "body-parser": "^1.10.1",
+    "express": "^4.11.0",
+    "mongodb": "^1.4.28"
+  },
+  "devDependencies": {
+    "node-dev": "2.6.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}
