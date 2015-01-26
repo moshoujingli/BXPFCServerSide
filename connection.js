@@ -11,7 +11,7 @@ module.exports = function(callback) {
     return;
   }
  
-  var db = new Db('mydb', new Server("masaker.com", Connection.DEFAULT_PORT, { auto_reconnect: true }));
+  var db = new Db('mydb', new Server("localhost", Connection.DEFAULT_PORT, { auto_reconnect: true }));
   db.open(function(error, databaseConnection) {
     if (error) throw new Error(error);
     connectionInstance = databaseConnection;
